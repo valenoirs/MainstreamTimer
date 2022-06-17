@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mainstream Timer", "Mainstream Timer\Mainstream Timer.csproj", "{1C861396-B6BF-40EE-B941-918749AB9129}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C861396-B6BF-40EE-B941-918749AB9129}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C861396-B6BF-40EE-B941-918749AB9129}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C861396-B6BF-40EE-B941-918749AB9129}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C861396-B6BF-40EE-B941-918749AB9129}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9A653746-8A68-4C4F-AB28-5C508FF8B142}
+	EndGlobalSection
+EndGlobal
