@@ -12,7 +12,7 @@ namespace Mainstream_Timer
 {
     public partial class Form1 : Form
     {
-        int second = 0, minute = 0;
+        int second = 0;
         bool start = false;
 
         public Form1()
@@ -35,14 +35,9 @@ namespace Mainstream_Timer
         private void tmrTimer_Tick(object sender, EventArgs e)
         {
             second++;
-            
-            if(second == 60)
-            {
-                second = 0;
-                minute++;
-            }
+            TimeSpan time = TimeSpan.FromSeconds(second);
 
-            lblTimer.Text = minute.ToString() + " : " + second.ToString();
+            lblTimer.Text = time.ToString(@"mm\:ss");
         }
     }
 }
